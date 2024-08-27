@@ -1,0 +1,78 @@
+main{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.master{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    box-shadow: 10px  5px 15px rgb(143, 134, 134);
+
+}
+.join{
+    color: rgb(15, 245, 245);
+}
+.day{
+    color: chartreuse;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 35%;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.a1 div{
+    margin-left: 20px;
+}
+.a2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 65%;
+}
+.b2{
+    background-color: aqua;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.b1{
+    background-color: aquamarine;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.sign button{
+    background-color: chartreuse;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid chartreuse;
+    padding: 5px 45px;
+    
+}
+.ss{
+    margin-right: 2rem;
+}
+.b1, .b2{
+    padding:20px;
+}
